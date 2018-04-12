@@ -1,7 +1,7 @@
 var exec = require('child_process').exec,
 	path = require('path'),
 	fs = require('fs'),
-	request = require('request'),
+	//request = require('request'),
 	http = require('http'),
 	https = require('https'),
 	isMac = /^darwin/.test(process.platform),
