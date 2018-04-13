@@ -33,9 +33,9 @@
       	<source-file src="src/ios/MediaChannelDelegate.m" />
 
         <framework src="Accelerate.framework" />
-        <framework src="AudioToolbox.framework" />
+        <!-- <framework src="AudioToolbox.framework" /> -->
         <framework src="AVFoundation.framework" />
-        <framework src="CoreBluetooth.framework" />
+        <!-- <framework src="CoreBluetooth.framework" /> -->
         <framework src="CoreText.framework" />
         <framework src="libc++.tbd" />
         <framework src="MediaAccessibility.framework" />
