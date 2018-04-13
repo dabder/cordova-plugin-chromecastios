@@ -1,17 +1,50 @@
 {
-  "name": "cordova-plugin-chromecastios",
-  "version": "1.0.6",
-  "description": "Cordova plugin for using Chromecast devices from iOS",
+  "_from": "cordova-plugin-chromecastios",
+  "_id": "cordova-plugin-chromecastios@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-BZVDNjWowXn5EPoYAno/3a/hoJI=",
+  "_location": "/cordova-plugin-chromecastios",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-chromecastios",
+    "name": "cordova-plugin-chromecastios",
+    "escapedName": "cordova-plugin-chromecastios",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-chromecastios/-/cordova-plugin-chromecastios-1.0.5.tgz",
+  "_shasum": "0595433635a8c179f910fa18027a3fddafe1a092",
+  "_spec": "cordova-plugin-chromecastios",
+  "_where": "/Users/didier/Desktop/oncast-app",
+  "author": {
+    "name": "Gaven Henry"
+  },
+  "bugs": {
+    "url": "https://github.com/ghenry22/cordova-plugin-chromecastios/issues"
+  },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-chromecastios",
     "platforms": [
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ghenry22/cordova-plugin-chromecastios"
-  },
+  "deprecated": false,
+  "description": "Cordova plugin for using Chromecast devices from iOS",
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=3.8.0"
+    }
+  ],
+  "homepage": "https://github.com/ghenry22/cordova-plugin-chromecastios#readme",
   "keywords": [
     "ecosystem:cordova",
     "cordova-ios",
@@ -19,16 +52,11 @@
     "googlecast",
     "cast"
   ],
-  "engines": [
-    {
-      "name": "cordova-ios",
-      "version": ">=3.8.0"
-    }
-  ],
-  "author": "Gaven Henry",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ghenry22/cordova-plugin-chromecastios/issues"
+  "name": "cordova-plugin-chromecastios",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghenry22/cordova-plugin-chromecastios.git"
   },
-  "homepage": "https://github.com/ghenry22/cordova-plugin-chromecastios#readme"
+  "version": "1.0.7"
 }

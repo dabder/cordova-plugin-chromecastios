@@ -68,20 +68,6 @@ Photo media metadata:
 
 ### Device Discovery & Control Functions
 
-After Init and a first scan get a list of available devices (v1.0.6)
-
-    cordova.plugins.chromecastios.getDeviceList();
-
-Select device to connect to by ID (v1.0.6)
-
-    cordova.plugins.chromecastios.selectDeviceById(deviceID).then(function(response){
-        //successfully selected device
-        //returns an object with the selected device details
-    }).catch(function(error){
-        //an error occured selecting the device
-        //returns an error code or false if the deviceID could not be found or was undefined
-    })
-
 Get the default cast receiver application ID
     
     cordova.plugins.chromecastios.getDefaultApplicationID().then(function(response){
@@ -284,10 +270,6 @@ Device Status Events
         }
         if(event.eventType == "disconnect"){
           console.log("device disconnected");
-          //do something
-        }
-        if(event.eventType == "timeout"){
-          console.log("device connection timeout");
           //do something
         }
     });

@@ -1,7 +1,7 @@
 var exec = require('child_process').exec,
 	path = require('path'),
 	fs = require('fs'),
-	//request = require('request'),
+	request = require('request'),
 	http = require('http'),
 	https = require('https'),
 	isMac = /^darwin/.test(process.platform),
@@ -25,7 +25,7 @@ if (!isMac) {
 	};
 
 	function safePath(unsafePath) {
-		return path.join(process.cwd(), "./platforms/ios/", unsafePath).replace(' ', '\\ ');
+		return path.join(process.cwd(), "./platforms/ios/", unsafePath);
 	}
 
 	function iOSInstall() {}
